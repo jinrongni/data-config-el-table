@@ -1,0 +1,73 @@
+{
+  "name": "el-table-data-config",
+  "version": "0.0.2",
+  "description": "element-ui el-table data configuration",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-w": "webpack",
+    "build": "npm run build-cjs && npm run build-umd",
+    "build-cjs": "vbuild -c vbuild.config.js --format cjs",
+    "build-umd": "vbuild -c vbuild.config.js --format umd",
+    "example": "vbuild -c vbuild.example.js -d",
+    "deploy": "vbuild -c vbuild.example.js && gh-pages -d dist-example",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "gitDir": ".",
+    "linters": {
+      "src/**/*.{js,vue}": [
+        "eslint --fix",
+        "git add"
+      ]
+    }
+  },
+  "dependencies": {
+    "vue": "2.5.17",
+    "element-ui": "2.0.10"
+  },
+  "devDependencies": {
+    "poi": "10.2.9",
+    "poi-preset-bundle-report": "2.0.2",
+    "babel-core": "6.22.1",
+    "babel-eslint": "7.1.1",
+    "babel-loader": "6.2.10",
+    "babel-plugin-transform-runtime": "6.22.0",
+    "babel-preset-env": "1.3.2",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.22.0",
+    "babel-register": "6.22.0",
+    "gh-pages": "0.12.0",
+    "style-loader": "0.19.1",
+    "sass-loader": "6.0.6",
+    "node-sass": "4.6.0",
+    "webpack": "3.6.0",
+    "vbuild": "6.0.0",
+    "eslint": "4.13.1",
+    "eslint-config-kaola": "0.1.3",
+    "eslint-friendly-formatter": "3.0.0",
+    "eslint-loader": "1.7.1",
+    "eslint-plugin-html": "3.0.0",
+    "lint-staged": "6.0.0",
+    "vue-template-compiler": "2.5.17",
+    "vue-loader": "13.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReAlign/el-table-data-config.git"
+  },
+  "keywords": [
+    "element-ui",
+    "el-table",
+    "table",
+    "data-config-table",
+    "data-config",
+    "data-configuration",
+    "enhanced-table"
+  ],
+  "author": "ReAlign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReAlign/el-table-data-config/issues"
+  },
+  "homepage": "https://github.com/ReAlign/el-table-data-config#readme"
+}
