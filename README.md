@@ -10,6 +10,7 @@
 ## Introduction
 
 [Static Demo](https://realign.github.io/data-config-el-table/)
+[Codesandbox Demo](https://codesandbox.io/s/l7522o3zrz)
 
 ![demo base](https://github.com/ReAlign/data-config-el-table/blob/master/source/img/1.png)
 ![demo option](https://github.com/ReAlign/data-config-el-table/blob/master/source/img/2.png)
