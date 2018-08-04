@@ -10,8 +10,7 @@ module.exports = {
     sourceMap: false,
     extract: false,
     filename: {
-        js: 'index.js',
-        css: 'index.css'
+        js: 'index.js'
     },
     copy: true,
     plugins: [
@@ -19,10 +18,6 @@ module.exports = {
     ],
     module: {
         loaders: [
-            {
-                test: /\.vue$/,
-                loader: 'vue-loader'
-            },
             {
                 test: /\.scss$/,
                 loader: 'style!css!sass'
