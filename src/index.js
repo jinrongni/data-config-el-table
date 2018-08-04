@@ -4,7 +4,7 @@ import MixinMethods from './data-config-el-table/methods';
 const DCElTable = {
     DataConfigElTable,
     install(Vue) {
-        Vue.component(EnhancedElTable.name, DataConfigElTable);
+        Vue.component(DataConfigElTable.name, DataConfigElTable);
     },
     _mixinsMethods: MixinMethods
 };
