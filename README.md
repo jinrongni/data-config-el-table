@@ -1,4 +1,4 @@
-# el-table-data-config
+# data-config-el-table
 
 [![NPM version][npm-image]][npm-url]
 
