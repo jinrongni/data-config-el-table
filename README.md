@@ -1,5 +1,10 @@
 # el-table-data-config
 
+[![NPM version][npm-image]][npm-url]
+
+[npm-image]: https://img.shields.io/npm/v/el-table-data-config.svg?longCache=true&style=for-the-badge
+[npm-url]: https://www.npmjs.com/package/fastpage
+
 > el-table, 全数据配置，避免大量重复的模板，更加组件化
 
 ## Introduction
