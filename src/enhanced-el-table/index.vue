@@ -1,6 +1,6 @@
 <template>
     <el-table
-        class="m-enhanced-el-table"
+        class="m-el-table-data-config"
         :class="tableClassName"
         ref="refEnhancedElTable"
         :data="source"
@@ -58,12 +58,13 @@
 <script>
 import ElTable from 'element-ui/lib/table';
 import ElTableColumn from 'element-ui/lib/table-column';
+
 import methods from './methods/index';
 
 import Config from './config';
 
 export default {
-    name: 'enhanced-el-table',
+    name: 'el-table-data-config',
     mixins: [
         methods
     ],

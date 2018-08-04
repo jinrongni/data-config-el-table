@@ -1,6 +1,6 @@
 {
   "name": "el-table-data-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "element-ui el-table data configuration",
   "main": "dist/index.js",
   "scripts": {
