@@ -1,13 +1,13 @@
-import EnhancedElTable from './enhanced-el-table/index.vue';
-import MixinMethods from './enhanced-el-table/methods';
+import DataConfigElTable from './data-config-el-table/index.vue';
+import MixinMethods from './data-config-el-table/methods';
 
-const EnElTable = {
-    EnhancedElTable,
+const DCElTable = {
+    DataConfigElTable,
     install(Vue) {
-        Vue.component(EnhancedElTable.name, EnhancedElTable);
+        Vue.component(EnhancedElTable.name, DataConfigElTable);
     },
     _mixinsMethods: MixinMethods
 };
 
-export default EnElTable;
-export { EnhancedElTable };
+export default DCElTable;
+export { DataConfigElTable };

@@ -1,6 +1,6 @@
 {
-  "name": "el-table-data-config",
-  "version": "0.0.3",
+  "name": "data-config-el-table",
+  "version": "0.0.2",
   "description": "element-ui el-table data configuration",
   "main": "dist/index.js",
   "scripts": {
@@ -26,8 +26,6 @@
     "element-ui": "2.0.10"
   },
   "devDependencies": {
-    "poi": "10.2.9",
-    "poi-preset-bundle-report": "2.0.2",
     "babel-core": "6.22.1",
     "babel-eslint": "7.1.1",
     "babel-loader": "6.2.10",

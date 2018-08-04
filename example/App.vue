@@ -2,7 +2,7 @@
     <div id="app">
         <el-card class="ve-container">
             <h1>全数据配置表格 DEMO</h1>
-            <el-table-data-config
+            <data-config-el-table
                 border
                 show-summary
                 height="500"
@@ -19,19 +19,19 @@
                         </li>
                     </ul>
                 </template>
-            </el-table-data-config>
+            </data-config-el-table>
         </el-card>
     </div>
 </template>
 
 <script>
-import { ElTableDataConfig } from '../src/index.js';
+import { DataConfigElTable } from '../src/index.js';
 
 import Config from './config';
 
 export default {
     components: {
-        'el-table-data-config': ElTableDataConfig
+        'data-config-el-table': DataConfigElTable
     },
     data() {
         return {

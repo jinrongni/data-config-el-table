@@ -5,11 +5,11 @@ const methods = {};
 Config.ALL_METHODS_NAME.forEach(name => {
     methods[name] = (...args) => {
         const {
-            refEnhancedElTable
+            refDataConfigElTable
         } = this.$refs;
 
-        if(refEnhancedElTable && refEnhancedElTable[name]) {
-            refEnhancedElTable[name](...args);
+        if(refDataConfigElTable && refDataConfigElTable[name]) {
+            refDataConfigElTable[name](...args);
         }
     }
 });

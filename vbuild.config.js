@@ -4,13 +4,14 @@ const resolve = dir => path.join(__dirname, '..', dir);
 
 module.exports = {
     entry: 'src/index.js',
-    moduleName: 'EnhancedElTable',
+    moduleName: 'DataConfigElTable',
     html: false,
     minimize: false,
     sourceMap: false,
     extract: false,
     filename: {
-        js: 'index.js'
+        js: 'index.js',
+        css: 'index.css'
     },
     copy: true,
     plugins: [

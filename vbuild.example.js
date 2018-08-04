@@ -21,7 +21,7 @@ module.exports = {
         css: '[name].css'
     },
     html: {
-        title: 'el-table-data-config'
+        title: 'data-config-el-table'
     },
     copy: true,
     minimize: false,

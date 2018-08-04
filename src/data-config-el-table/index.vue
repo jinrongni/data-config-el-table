@@ -1,8 +1,8 @@
 <template>
     <el-table
-        class="m-el-table-data-config"
+        class="m-data-config-el-table"
         :class="tableClassName"
-        ref="refEnhancedElTable"
+        ref="refDataConfigElTable"
         :data="source"
         v-bind="bindOriginalBooleanAttrs"
         v-on="$listeners">
@@ -64,7 +64,7 @@ import methods from './methods/index';
 import Config from './config';
 
 export default {
-    name: 'el-table-data-config',
+    name: 'data-config-el-table',
     mixins: [
         methods
     ],
