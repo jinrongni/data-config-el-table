@@ -1,7 +1,7 @@
 {
   "name": "data-config-el-table",
   "version": "0.0.2",
-  "description": "element-ui el-table data configuration",
+  "description": "element-ui el-table extend, data configuration",
   "main": "dist/index.js",
   "scripts": {
     "build-w": "webpack",
